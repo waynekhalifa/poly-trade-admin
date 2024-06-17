@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_how_it_works",
+  "info": {
+    "displayName": "How-it-works"
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

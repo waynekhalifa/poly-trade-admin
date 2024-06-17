@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_accordions",
+  "info": {
+    "displayName": "Accordion"
+  },
+  "options": {},
+  "attributes": {
+    "Summary": {
+      "type": "string",
+      "required": true
+    },
+    "Content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

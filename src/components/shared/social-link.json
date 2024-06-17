@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "displayName": "Social link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

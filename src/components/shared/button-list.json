@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_shared_button_lists",
+  "info": {
+    "displayName": "Button list"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "alignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.content-alignment"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.animation"
+    }
+  }
+}

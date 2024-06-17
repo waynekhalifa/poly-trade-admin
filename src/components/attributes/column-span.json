@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_attributes_column_spans",
+  "info": {
+    "displayName": "Column span",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "decimal",
+      "default": 12
+    },
+    "sm": {
+      "type": "decimal",
+      "default": 12
+    },
+    "md": {
+      "type": "decimal",
+      "default": 12
+    },
+    "lg": {
+      "type": "decimal",
+      "default": 12
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_attributes_animations",
+  "info": {
+    "displayName": "Animation"
+  },
+  "options": {},
+  "attributes": {
+    "component": {
+      "type": "enumeration",
+      "enum": [
+        "Bounce",
+        "Fade",
+        "Flip",
+        "Hinge",
+        "JackInTheBox",
+        "Roll",
+        "Rotate",
+        "Slide",
+        "Zoom"
+      ],
+      "default": "Fade"
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": ["down", "left", "right", "up"]
+    },
+    "damping": {
+      "type": "decimal",
+      "default": 0.5
+    },
+    "delay": {
+      "type": "integer",
+      "default": 0
+    },
+    "duration": {
+      "type": "integer",
+      "default": 1000
+    },
+    "fraction": {
+      "type": "decimal",
+      "default": 0
+    },
+    "triggerOnce": {
+      "type": "boolean",
+      "default": true
+    },
+    "cascade": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

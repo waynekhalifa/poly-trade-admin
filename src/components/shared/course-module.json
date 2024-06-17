@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_course_modules",
+  "info": {
+    "displayName": "Course module"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "collectionName": "components_attributes_text_variants",
+  "info": {
+    "displayName": "Text variant"
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "enumeration",
+      "enum": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    },
+    "sm": {
+      "type": "enumeration",
+      "enum": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    },
+    "md": {
+      "type": "enumeration",
+      "enum": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    },
+    "lg": {
+      "type": "enumeration",
+      "enum": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    }
+  }
+}

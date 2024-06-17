@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_attributes_grids",
+  "info": {
+    "displayName": "Grid",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "attributes.row"
+    }
+  }
+}

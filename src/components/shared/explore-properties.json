@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_explore_properties",
+  "info": {
+    "displayName": "Explore properties",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

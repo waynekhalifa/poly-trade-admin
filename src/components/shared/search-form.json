@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_search_forms",
+  "info": {
+    "displayName": "Search form"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

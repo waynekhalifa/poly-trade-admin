@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_dividers",
+  "info": {
+    "displayName": "Divider"
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": ["horizontal", "vertical"]
+    },
+    "bStyle": {
+      "type": "enumeration",
+      "enum": ["solid", "dashed"]
+    },
+    "bColor": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

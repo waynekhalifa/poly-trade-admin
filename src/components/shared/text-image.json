@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_text_images",
+  "info": {
+    "displayName": "Text image"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.rich-text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.media"
+    }
+  }
+}

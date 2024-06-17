@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_attributes_heights",
+  "info": {
+    "displayName": "height"
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "integer",
+      "default": 1
+    },
+    "sm": {
+      "type": "integer",
+      "default": 1
+    },
+    "md": {
+      "type": "integer",
+      "default": 1
+    },
+    "lg": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

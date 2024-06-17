@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_attributes_content_alignments",
+  "info": {
+    "displayName": "Content alignment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "enumeration",
+      "enum": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between"
+      ],
+      "default": "flex-start"
+    },
+    "sm": {
+      "type": "enumeration",
+      "enum": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between"
+      ],
+      "default": "flex-start"
+    },
+    "md": {
+      "type": "enumeration",
+      "enum": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between"
+      ],
+      "default": "flex-start"
+    },
+    "lg": {
+      "type": "enumeration",
+      "enum": [
+        "flex-start",
+        "center",
+        "flex-end",
+        "space-between"
+      ],
+      "default": "flex-start"
+    }
+  }
+}

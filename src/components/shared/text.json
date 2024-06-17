@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_shared_texts",
+  "info": {
+    "displayName": "Text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "component": {
+      "type": "string",
+      "required": true,
+      "default": "p"
+    },
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": ["light", "regular", "semi-bold", "bold"],
+      "default": "regular"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "body1",
+        "body2",
+        "button",
+        "caption",
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6",
+        "inherit",
+        "overline",
+        "subtitle1",
+        "subtitle2"
+      ],
+      "default": "body1"
+    },
+    "noWrap": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string",
+      "default": "text.primary",
+      "required": true
+    },
+    "textAlign": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.text-alignment"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    },
+    "animation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.animation"
+    }
+  }
+}

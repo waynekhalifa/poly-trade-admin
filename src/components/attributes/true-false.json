@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_attributes_true_falses",
+  "info": {
+    "displayName": "True false"
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "boolean",
+      "default": false
+    },
+    "sm": {
+      "type": "boolean",
+      "default": false
+    },
+    "md": {
+      "type": "boolean",
+      "default": false
+    },
+    "lg": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

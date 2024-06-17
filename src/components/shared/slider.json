@@ -1,0 +1,102 @@
+{
+  "collectionName": "components_shared_sliders",
+  "info": {
+    "displayName": "Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slidesPerView": {
+      "type": "integer",
+      "default": 1
+    },
+    "direction": {
+      "type": "enumeration",
+      "enum": [
+        "horizontal",
+        "vertical"
+      ]
+    },
+    "navigation": {
+      "type": "boolean",
+      "default": false
+    },
+    "mousewheel": {
+      "type": "boolean",
+      "default": false
+    },
+    "pagination": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "paginationAlignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.content-alignment"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "slider",
+        "carousel"
+      ]
+    },
+    "imageHeight": {
+      "type": "integer"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "transparent"
+    },
+    "files": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    },
+    "prevPosition": {
+      "type": "string",
+      "default": "0%"
+    },
+    "nextPosition": {
+      "type": "string",
+      "default": "0%"
+    },
+    "spaceBetween": {
+      "type": "integer",
+      "default": 1
+    },
+    "slidesPerGroup": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

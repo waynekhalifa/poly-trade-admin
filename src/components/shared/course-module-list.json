@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_course_module_lists",
+  "info": {
+    "displayName": "Course module list"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.course-module"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

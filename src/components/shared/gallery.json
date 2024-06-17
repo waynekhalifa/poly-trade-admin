@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_galleries",
+  "info": {
+    "displayName": "Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "files": {
+      "allowedTypes": ["images", "files", "videos", "audios"],
+      "type": "media",
+      "multiple": true
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

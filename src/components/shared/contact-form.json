@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_contact_forms",
+  "info": {
+    "displayName": "Contact form"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    }
+  }
+}

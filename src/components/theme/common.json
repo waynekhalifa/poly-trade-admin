@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_theme_commons",
+  "info": {
+    "displayName": "Common"
+  },
+  "options": {},
+  "attributes": {
+    "white": {
+      "type": "string",
+      "required": true
+    },
+    "black": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_attributes_backgrounds",
+  "info": {
+    "displayName": "Background"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "allowedTypes": ["videos"],
+      "type": "media",
+      "multiple": false
+    },
+    "gradient": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.gradient"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

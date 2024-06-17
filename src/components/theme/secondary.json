@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_theme_secondaries",
+  "info": {
+    "displayName": "Secondary"
+  },
+  "options": {},
+  "attributes": {
+    "light": {
+      "type": "string",
+      "required": true
+    },
+    "main": {
+      "type": "string",
+      "required": true
+    },
+    "dark": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

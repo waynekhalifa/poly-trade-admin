@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "searches",
+  "info": {
+    "singularName": "search",
+    "pluralName": "searches",
+    "displayName": "Search",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "users": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "searches"
+    },
+    "params": {
+      "type": "string"
+    }
+  }
+}

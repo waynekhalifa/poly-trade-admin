@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_submissions",
+  "info": {
+    "singularName": "company-submission",
+    "pluralName": "company-submissions",
+    "displayName": "Company submission"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "seen",
+        "contacted",
+        "ignored"
+      ],
+      "default": "ignored"
+    }
+  }
+}

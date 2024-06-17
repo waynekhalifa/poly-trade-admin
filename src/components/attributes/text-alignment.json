@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_attributes_text_alignments",
+  "info": {
+    "displayName": "Text alignment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end"
+      ],
+      "default": "start"
+    },
+    "sm": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end"
+      ],
+      "default": "start"
+    },
+    "md": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end"
+      ],
+      "default": "start"
+    },
+    "lg": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end"
+      ],
+      "default": "start"
+    }
+  }
+}

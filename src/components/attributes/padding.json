@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_paddings",
+  "info": {
+    "displayName": "Padding",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.integer"
+    },
+    "bottom": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.integer"
+    },
+    "left": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.integer"
+    },
+    "right": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.integer"
+    }
+  }
+}

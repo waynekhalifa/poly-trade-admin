@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_listings",
+  "info": {
+    "displayName": "Listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sectionName": {
+      "type": "string"
+    },
+    "collection": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["grid", "slider"]
+    },
+    "filterBy": {
+      "type": "string"
+    },
+    "numOfItems": {
+      "type": "integer"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

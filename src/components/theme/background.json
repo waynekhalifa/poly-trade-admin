@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_theme_backgrounds",
+  "info": {
+    "displayName": "Background"
+  },
+  "options": {},
+  "attributes": {
+    "paper": {
+      "type": "string",
+      "required": true
+    },
+    "default": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

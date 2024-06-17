@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo",
+      "required": true
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "posts"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "posts"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.breadcrumb",
+        "shared.button-list",
+        "shared.button",
+        "shared.contac-information",
+        "shared.contact-form",
+        "shared.contact-me-info",
+        "shared.contact",
+        "shared.course-module-list",
+        "shared.course-module",
+        "shared.crateria-item",
+        "shared.craterias",
+        "shared.divider",
+        "shared.email",
+        "shared.embedded-map",
+        "shared.gallery",
+        "shared.hero-title",
+        "shared.link",
+        "shared.listing",
+        "shared.logo",
+        "shared.media",
+        "shared.message-form",
+        "shared.navbar",
+        "shared.numbers",
+        "shared.portfolio-item",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.search-form",
+        "shared.service",
+        "shared.sitemap",
+        "shared.slider",
+        "shared.social-icons",
+        "shared.social-link",
+        "shared.subscribe-form",
+        "shared.testimonials",
+        "shared.text-image-list",
+        "shared.text-image",
+        "shared.text",
+        "shared.widget-title"
+      ]
+    }
+  }
+}

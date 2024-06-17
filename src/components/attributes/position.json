@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_attributes_positions",
+  "info": {
+    "displayName": "Position"
+  },
+  "options": {},
+  "attributes": {
+    "rowNum": {
+      "type": "integer",
+      "default": 1
+    },
+    "columnNum": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

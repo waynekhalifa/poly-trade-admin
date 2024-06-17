@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_attributes_columns",
+  "info": {
+    "displayName": "Column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "height": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.height"
+    },
+    "innerHeight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.height"
+    },
+    "bottomMargin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.integer"
+    },
+    "span": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.column-span"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "background": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.background"
+    },
+    "alignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.content-alignment"
+    }
+  }
+}

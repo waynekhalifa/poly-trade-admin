@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_emails",
+  "info": {
+    "displayName": "Email"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "url": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.link"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

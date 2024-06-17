@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variant": {
+      "type": "enumeration",
+      "enum": ["contained", "outlined", "text"],
+      "default": "text"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": ["small", "medium", "large"],
+      "default": "medium"
+    },
+    "fullWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "inherit",
+        "primary",
+        "secondary",
+        "success",
+        "error",
+        "info",
+        "warning"
+      ],
+      "default": "primary"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "startIcon": {
+      "type": "string"
+    },
+    "endIcon": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["button", "link"],
+      "default": "button"
+    },
+    "href": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

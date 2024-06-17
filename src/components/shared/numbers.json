@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_numbers",
+  "info": {
+    "displayName": "Numbers"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "string"
+    },
+    "countries": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

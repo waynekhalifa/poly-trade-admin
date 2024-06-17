@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_quotes",
+  "info": {
+    "displayName": "Quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "body": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

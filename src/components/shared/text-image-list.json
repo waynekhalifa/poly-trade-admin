@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_text_image_lists",
+  "info": {
+    "displayName": "Text image list"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-image"
+    }
+  }
+}

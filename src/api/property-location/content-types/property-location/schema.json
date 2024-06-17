@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_locations",
+  "info": {
+    "singularName": "property-location",
+    "pluralName": "property-locations",
+    "displayName": "Property location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "propertiesNum": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

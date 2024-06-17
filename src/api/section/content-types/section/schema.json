@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "precedence": {
+      "type": "integer",
+      "default": 1,
+      "required": true
+    },
+    "container": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.container",
+      "required": true
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.breadcrumb",
+        "shared.button-list",
+        "shared.button",
+        "shared.contac-information",
+        "shared.contact-form",
+        "shared.contact-me-info",
+        "shared.contact",
+        "shared.course-module-list",
+        "shared.course-module",
+        "shared.crateria-item",
+        "shared.craterias",
+        "shared.divider",
+        "shared.email",
+        "shared.embedded-map",
+        "shared.gallery",
+        "shared.hero-title",
+        "shared.link",
+        "shared.listing",
+        "shared.logo",
+        "shared.media",
+        "shared.message-form",
+        "shared.navbar",
+        "shared.numbers",
+        "shared.portfolio-item",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.search-form",
+        "shared.service",
+        "shared.sitemap",
+        "shared.slider",
+        "shared.social-icons",
+        "shared.social-link",
+        "shared.subscribe-form",
+        "shared.testimonials",
+        "shared.text-image-list",
+        "shared.text-image",
+        "shared.text",
+        "shared.widget-title",
+        "shared.lottie-technology",
+        "shared.explore-properties",
+        "shared.editor",
+        "shared.my-account",
+        "shared.form",
+        "shared.accordion",
+        "shared.fa-qs",
+        "shared.terms-and-conditions",
+        "shared.how-it-works"
+      ]
+    }
+  }
+}

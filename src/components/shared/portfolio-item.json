@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_portfolio_items",
+  "info": {
+    "displayName": "Portfolio item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

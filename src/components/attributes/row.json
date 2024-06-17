@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_attributes_rows",
+  "info": {
+    "displayName": "Row"
+  },
+  "options": {},
+  "attributes": {
+    "spacing": {
+      "type": "integer",
+      "default": 0
+    },
+    "boxShadow": {
+      "type": "string"
+    },
+    "height": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.height"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "attributes.column"
+    }
+  }
+}

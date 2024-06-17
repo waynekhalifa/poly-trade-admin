@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_types",
+  "info": {
+    "singularName": "property-type",
+    "pluralName": "property-types",
+    "displayName": "Property type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "propertiesNum": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

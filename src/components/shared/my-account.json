@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_my_accounts",
+  "info": {
+    "displayName": "My Account"
+  },
+  "options": {},
+  "attributes": {
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

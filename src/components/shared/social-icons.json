@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_social_icons",
+  "info": {
+    "displayName": "Social icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

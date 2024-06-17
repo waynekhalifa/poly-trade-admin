@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_sitemaps",
+  "info": {
+    "displayName": "Sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "placement": {
+      "type": "string",
+      "default": "footer.widget"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

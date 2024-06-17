@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_attributes_containers",
+  "info": {
+    "displayName": "Container"
+  },
+  "options": {},
+  "attributes": {
+    "component": {
+      "type": "enumeration",
+      "enum": ["section", "div"],
+      "default": "section"
+    },
+    "maxWidth": {
+      "type": "enumeration",
+      "enum": ["xs", "sm", "md", "lg", "xl", "false"],
+      "default": "lg"
+    },
+    "disableGutters": {
+      "type": "boolean",
+      "default": false
+    },
+    "background": {
+      "displayName": "Background",
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.background"
+    },
+    "grid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.grid"
+    }
+  }
+}

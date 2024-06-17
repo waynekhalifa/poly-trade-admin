@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_editors",
+  "info": {
+    "displayName": "Editor"
+  },
+  "options": {},
+  "attributes": {
+    "editor": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

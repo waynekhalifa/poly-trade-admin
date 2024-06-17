@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_crateria_items",
+  "info": {
+    "displayName": "Crateria item"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

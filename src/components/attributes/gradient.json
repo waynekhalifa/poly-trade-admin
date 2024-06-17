@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_attributes_gradients",
+  "info": {
+    "displayName": "Gradient"
+  },
+  "options": {},
+  "attributes": {
+    "startColor": {
+      "type": "string"
+    },
+    "endColor": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    }
+  }
+}

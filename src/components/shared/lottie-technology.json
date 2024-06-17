@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_lottie_technologies",
+  "info": {
+    "displayName": "Lottie technology"
+  },
+  "options": {},
+  "attributes": {
+    "width": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.height"
+    },
+    "alignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.content-alignment"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

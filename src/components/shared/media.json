@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_media",
+  "info": {
+    "displayName": "Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images", "files", "videos", "audios"]
+    },
+    "objectFit": {
+      "type": "enumeration",
+      "enum": ["cover", "contained"]
+    },
+    "height": {
+      "type": "integer"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

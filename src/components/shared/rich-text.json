@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_rich_texts",
+  "info": {
+    "displayName": "Rich text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    },
+    "name": {
+      "type": "string"
+    },
+    "height": {
+      "type": "integer",
+      "default": 1
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    },
+    "alignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.text-alignment"
+    },
+    "color": {
+      "type": "string",
+      "default": "text.primary"
+    },
+    "width": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

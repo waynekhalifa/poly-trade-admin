@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_theme_primaries",
+  "info": {
+    "displayName": "Primary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "light": {
+      "type": "string",
+      "required": true
+    },
+    "main": {
+      "type": "string",
+      "required": true
+    },
+    "dark": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

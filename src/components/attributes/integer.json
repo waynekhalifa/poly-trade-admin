@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_attributes_integers",
+  "info": {
+    "displayName": "Integer"
+  },
+  "options": {},
+  "attributes": {
+    "xs": {
+      "type": "integer",
+      "default": 0
+    },
+    "sm": {
+      "type": "integer",
+      "default": 0
+    },
+    "md": {
+      "type": "integer",
+      "default": 0
+    },
+    "lg": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
