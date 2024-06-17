@@ -12,7 +12,7 @@
     },
     "description": {
       "type": "text",
-      "default": "Buy and rent properties in South Sudan",
+      "default": "PolyTrade | High-Quality raw materials | Crops",
       "required": true
     },
     "icon": {

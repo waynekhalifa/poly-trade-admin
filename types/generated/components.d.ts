@@ -368,7 +368,7 @@ export interface SeoSeo extends Schema.Component {
     title: Attribute.String & Attribute.Required;
     description: Attribute.Text &
       Attribute.Required &
-      Attribute.DefaultTo<'Buy and rent properties in South Sudan'>;
+      Attribute.DefaultTo<'PolyTrade | High-Quality raw materials | Crops'>;
     icon: Attribute.Media & Attribute.Required;
   };
 }
