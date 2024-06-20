@@ -468,6 +468,21 @@ export interface SharedContactForm extends Schema.Component {
   };
 }
 
+export interface SharedContactInfo extends Schema.Component {
+  collectionName: 'components_shared_contact_infos';
+  info: {
+    displayName: 'Contact Info';
+  };
+  attributes: {
+    title: Attribute.String;
+    description: Attribute.Blocks;
+    background: Attribute.Component<'attributes.background'>;
+    padding: Attribute.Component<'attributes.padding'>;
+    margin: Attribute.Component<'attributes.margin'>;
+    position: Attribute.Component<'attributes.position'>;
+  };
+}
+
 export interface SharedContactMeInfo extends Schema.Component {
   collectionName: 'components_shared_contact_me_infos';
   info: {
@@ -1165,6 +1180,7 @@ declare module '@strapi/types' {
       'shared.button': SharedButton;
       'shared.contac-information': SharedContacInformation;
       'shared.contact-form': SharedContactForm;
+      'shared.contact-info': SharedContactInfo;
       'shared.contact-me-info': SharedContactMeInfo;
       'shared.contact': SharedContact;
       'shared.course-module-list': SharedCourseModuleList;
