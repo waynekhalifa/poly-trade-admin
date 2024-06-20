@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_contact_info_lists",
+  "info": {
+    "displayName": "Contact Info List"
+  },
+  "options": {},
+  "attributes": {
+    "gap": {
+      "type": "decimal"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.contact-info"
+    },
+    "padding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.padding"
+    },
+    "margin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.margin"
+    },
+    "position": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.position"
+    }
+  }
+}

@@ -1337,7 +1337,9 @@ export interface ApiSectionSection extends Schema.CollectionType {
         'shared.accordion',
         'shared.fa-qs',
         'shared.terms-and-conditions',
-        'shared.how-it-works'
+        'shared.how-it-works',
+        'shared.contact-info',
+        'shared.contact-info-list'
       ]
     >;
     createdAt: Attribute.DateTime;

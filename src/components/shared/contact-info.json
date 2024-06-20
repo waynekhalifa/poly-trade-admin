@@ -16,20 +16,17 @@
       "repeatable": false,
       "component": "attributes.background"
     },
+    "color": {
+      "type": "string"
+    },
+    "minHeight": {
+      "type": "integer",
+      "default": 1
+    },
     "padding": {
       "type": "component",
       "repeatable": false,
       "component": "attributes.padding"
-    },
-    "margin": {
-      "type": "component",
-      "repeatable": false,
-      "component": "attributes.margin"
-    },
-    "position": {
-      "type": "component",
-      "repeatable": false,
-      "component": "attributes.position"
     }
   }
 }
