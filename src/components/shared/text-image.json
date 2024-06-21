@@ -14,6 +14,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.media"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

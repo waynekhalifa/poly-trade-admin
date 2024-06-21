@@ -1044,6 +1044,8 @@ export interface SharedTextImage extends Schema.Component {
   attributes: {
     text: Attribute.Component<'shared.rich-text'>;
     image: Attribute.Component<'shared.media'>;
+    name: Attribute.String;
+    title: Attribute.String;
   };
 }
 
