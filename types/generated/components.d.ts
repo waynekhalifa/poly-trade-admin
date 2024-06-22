@@ -783,7 +783,10 @@ export interface SharedMedia extends Schema.Component {
   attributes: {
     file: Attribute.Media;
     objectFit: Attribute.Enumeration<['cover', 'contained']>;
+    shape: Attribute.Enumeration<['square', 'circle']> &
+      Attribute.DefaultTo<'square'>;
     height: Attribute.Integer;
+    alignment: Attribute.Enumeration<['start', 'center', 'end']>;
     padding: Attribute.Component<'attributes.padding'>;
     margin: Attribute.Component<'attributes.margin'>;
     position: Attribute.Component<'attributes.position'>;
@@ -968,6 +971,7 @@ export interface SharedSocialIcons extends Schema.Component {
   };
   attributes: {
     links: Attribute.Component<'shared.social-link', true>;
+    alignment: Attribute.Component<'attributes.content-alignment'>;
     padding: Attribute.Component<'attributes.padding'>;
     margin: Attribute.Component<'attributes.margin'>;
     position: Attribute.Component<'attributes.position'>;

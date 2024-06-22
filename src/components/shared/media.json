@@ -16,8 +16,17 @@
       "type": "enumeration",
       "enum": ["cover", "contained"]
     },
+    "shape": {
+      "type": "enumeration",
+      "enum": ["square", "circle"],
+      "default": "square"
+    },
     "height": {
       "type": "integer"
+    },
+    "alignment": {
+      "type": "enumeration",
+      "enum": ["start", "center", "end"]
     },
     "padding": {
       "type": "component",

@@ -11,6 +11,11 @@
       "repeatable": true,
       "component": "shared.social-link"
     },
+    "alignment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "attributes.content-alignment"
+    },
     "padding": {
       "type": "component",
       "repeatable": false,
