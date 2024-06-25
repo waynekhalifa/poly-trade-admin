@@ -591,6 +591,19 @@ export interface SharedDivider extends Schema.Component {
   };
 }
 
+export interface SharedEditorList extends Schema.Component {
+  collectionName: 'components_shared_editor_lists';
+  info: {
+    displayName: 'Editor List';
+  };
+  attributes: {
+    list: Attribute.Component<'shared.editor', true>;
+    padding: Attribute.Component<'attributes.padding'>;
+    margin: Attribute.Component<'attributes.margin'>;
+    position: Attribute.Component<'attributes.position'>;
+  };
+}
+
 export interface SharedEditor extends Schema.Component {
   collectionName: 'components_shared_editors';
   info: {
@@ -1209,6 +1222,7 @@ declare module '@strapi/types' {
       'shared.crateria-item': SharedCrateriaItem;
       'shared.craterias': SharedCraterias;
       'shared.divider': SharedDivider;
+      'shared.editor-list': SharedEditorList;
       'shared.editor': SharedEditor;
       'shared.email': SharedEmail;
       'shared.embedded-map': SharedEmbeddedMap;

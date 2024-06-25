@@ -1427,7 +1427,8 @@ export interface ApiSectionSection extends Schema.CollectionType {
         'shared.terms-and-conditions',
         'shared.how-it-works',
         'shared.contact-info',
-        'shared.contact-info-list'
+        'shared.contact-info-list',
+        'shared.editor-list'
       ]
     >;
     createdAt: Attribute.DateTime;
