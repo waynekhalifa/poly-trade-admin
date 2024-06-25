@@ -1,0 +1,97 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.accordion",
+        "shared.breadcrumb",
+        "shared.button-list",
+        "shared.button",
+        "shared.contac-information",
+        "shared.contact-form",
+        "shared.contact-info-list",
+        "shared.contact-info",
+        "shared.contact-me-info",
+        "shared.contact",
+        "shared.course-module-list",
+        "shared.course-module",
+        "shared.crateria-item",
+        "shared.craterias",
+        "shared.divider",
+        "shared.editor",
+        "shared.email",
+        "shared.embedded-map",
+        "shared.explore-properties",
+        "shared.fa-qs",
+        "shared.form",
+        "shared.gallery",
+        "shared.hero-title",
+        "shared.how-it-works",
+        "shared.link",
+        "shared.listing",
+        "shared.logo",
+        "shared.lottie-technology",
+        "shared.media",
+        "shared.message-form",
+        "shared.my-account",
+        "shared.navbar",
+        "shared.numbers",
+        "shared.portfolio-item",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.search-form",
+        "shared.service",
+        "shared.sitemap",
+        "shared.slider",
+        "shared.social-icons",
+        "shared.social-link",
+        "shared.subscribe-form",
+        "shared.terms-and-conditions",
+        "shared.testimonials",
+        "shared.text-image-list",
+        "shared.text-image",
+        "shared.text",
+        "shared.widget-title"
+      ]
+    }
+  }
+}

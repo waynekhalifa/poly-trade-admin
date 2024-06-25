@@ -1101,6 +1101,94 @@ export interface ApiPostPost extends Schema.CollectionType {
   };
 }
 
+export interface ApiProductProduct extends Schema.CollectionType {
+  collectionName: 'products';
+  info: {
+    singularName: 'product';
+    pluralName: 'products';
+    displayName: 'Product';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    name: Attribute.String;
+    slug: Attribute.UID;
+    thumbnail: Attribute.Media;
+    gallery: Attribute.Media;
+    description: Attribute.Blocks;
+    seo: Attribute.Component<'seo.seo'>;
+    content: Attribute.DynamicZone<
+      [
+        'shared.accordion',
+        'shared.breadcrumb',
+        'shared.button-list',
+        'shared.button',
+        'shared.contac-information',
+        'shared.contact-form',
+        'shared.contact-info-list',
+        'shared.contact-info',
+        'shared.contact-me-info',
+        'shared.contact',
+        'shared.course-module-list',
+        'shared.course-module',
+        'shared.crateria-item',
+        'shared.craterias',
+        'shared.divider',
+        'shared.editor',
+        'shared.email',
+        'shared.embedded-map',
+        'shared.explore-properties',
+        'shared.fa-qs',
+        'shared.form',
+        'shared.gallery',
+        'shared.hero-title',
+        'shared.how-it-works',
+        'shared.link',
+        'shared.listing',
+        'shared.logo',
+        'shared.lottie-technology',
+        'shared.media',
+        'shared.message-form',
+        'shared.my-account',
+        'shared.navbar',
+        'shared.numbers',
+        'shared.portfolio-item',
+        'shared.quote',
+        'shared.rich-text',
+        'shared.search-form',
+        'shared.service',
+        'shared.sitemap',
+        'shared.slider',
+        'shared.social-icons',
+        'shared.social-link',
+        'shared.subscribe-form',
+        'shared.terms-and-conditions',
+        'shared.testimonials',
+        'shared.text-image-list',
+        'shared.text-image',
+        'shared.text',
+        'shared.widget-title'
+      ]
+    >;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'api::product.product',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'api::product.product',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiPropertyProperty extends Schema.CollectionType {
   collectionName: 'properties';
   info: {
@@ -1446,6 +1534,7 @@ declare module '@strapi/types' {
       'api::lead-form-submission.lead-form-submission': ApiLeadFormSubmissionLeadFormSubmission;
       'api::page.page': ApiPagePage;
       'api::post.post': ApiPostPost;
+      'api::product.product': ApiProductProduct;
       'api::property.property': ApiPropertyProperty;
       'api::property-location.property-location': ApiPropertyLocationPropertyLocation;
       'api::property-type.property-type': ApiPropertyTypePropertyType;
