@@ -15,27 +15,29 @@
     "name": {
       "type": "string"
     },
+    "arName": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid"
     },
     "description": {
       "type": "blocks"
     },
+    "arDescription": {
+      "type": "blocks"
+    },
     "thumbnail": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "gallery": {
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "seo": {
       "type": "component",

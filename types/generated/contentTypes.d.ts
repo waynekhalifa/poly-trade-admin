@@ -1034,8 +1034,10 @@ export interface ApiPostPost extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String;
+    arName: Attribute.String;
     slug: Attribute.UID;
     description: Attribute.Blocks;
+    arDescription: Attribute.Blocks;
     thumbnail: Attribute.Media;
     gallery: Attribute.Media;
     seo: Attribute.Component<'seo.seo'> & Attribute.Required;
