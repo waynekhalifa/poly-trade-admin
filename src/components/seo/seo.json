@@ -22,6 +22,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "arTitle": {
+      "type": "string"
+    },
+    "arDescription": {
+      "type": "string"
     }
   }
 }
