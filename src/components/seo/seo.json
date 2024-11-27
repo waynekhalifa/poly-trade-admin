@@ -27,7 +27,7 @@
       "type": "string"
     },
     "arDescription": {
-      "type": "string",
+      "type": "text",
       "default": "بوليتريد | مواد خام عالية الجودة | المحاصيل"
     }
   }

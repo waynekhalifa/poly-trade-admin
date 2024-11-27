@@ -371,7 +371,7 @@ export interface SeoSeo extends Schema.Component {
       Attribute.DefaultTo<'PolyTrade | High-Quality raw materials | Crops'>;
     icon: Attribute.Media & Attribute.Required;
     arTitle: Attribute.String;
-    arDescription: Attribute.String &
+    arDescription: Attribute.Text &
       Attribute.DefaultTo<'\u0628\u0648\u0644\u064A\u062A\u0631\u064A\u062F | \u0645\u0648\u0627\u062F \u062E\u0627\u0645 \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u062C\u0648\u062F\u0629 | \u0627\u0644\u0645\u062D\u0627\u0635\u064A\u0644'>;
   };
 }

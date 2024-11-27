@@ -14,24 +14,26 @@
     "name": {
       "type": "string"
     },
+    "arName": {
+      "type": "string"
+    },
     "slug": {
       "type": "uid"
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false
     },
     "gallery": {
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "type": "media",
       "multiple": true
     },
     "description": {
+      "type": "blocks"
+    },
+    "arDescription": {
       "type": "blocks"
     },
     "seo": {

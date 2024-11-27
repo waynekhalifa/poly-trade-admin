@@ -814,6 +814,7 @@ export interface ApiAuthorAuthor extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String;
+    arName: Attribute.String;
     email: Attribute.Email;
     avatar: Attribute.Media;
     createdAt: Attribute.DateTime;
@@ -846,6 +847,7 @@ export interface ApiCategoryCategory extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String & Attribute.Required;
+    arName: Attribute.String;
     slug: Attribute.UID;
     thumbnail: Attribute.Media;
     posts: Attribute.Relation<
@@ -1116,10 +1118,12 @@ export interface ApiProductProduct extends Schema.CollectionType {
   };
   attributes: {
     name: Attribute.String;
+    arName: Attribute.String;
     slug: Attribute.UID;
     thumbnail: Attribute.Media;
     gallery: Attribute.Media;
     description: Attribute.Blocks;
+    arDescription: Attribute.Blocks;
     seo: Attribute.Component<'seo.seo'>;
     content: Attribute.DynamicZone<
       [
